@@ -1,0 +1,27 @@
+{
+  "name": "clinical-trials",
+  "version": "1.0.0",
+  "description": "A full-stack web application for managing clinical trials with user authentication.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm start --prefix frontend\" \"npm start --prefix backend\"",
+    "frontend": "npm start --prefix frontend",
+    "backend": "npm start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaibhav70/clinical-trials.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vaibhav70/clinical-trials/issues"
+  },
+  "homepage": "https://github.com/vaibhav70/clinical-trials#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
